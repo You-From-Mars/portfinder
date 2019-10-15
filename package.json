@@ -1,0 +1,23 @@
+{
+  "name": "portfinder",
+  "version": "1.0.0",
+  "description": "find guarantee port",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node './test/getPort.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/You-From-Mars/portfinder.git"
+  },
+  "keywords": [
+    "ports",
+    "http"
+  ],
+  "author": "HelenYin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/You-From-Mars/portfinder/issues"
+  },
+  "homepage": "https://github.com/You-From-Mars/portfinder#readme"
+}
