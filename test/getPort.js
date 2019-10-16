@@ -6,26 +6,23 @@ const connectPortfinder = require('../lib/index.connect.js')
 
 function serverFinter() {
     serverPortfinder.getPort((err, port) => {
-        if (err) {
-            console.error('listen error:', err)
-        } else {
-            console.log('listen port:', port)    
-        }
+        // if (err) {
+        //     console.error('listen error:', err)
+        // } else {
+        //     console.log('listen port:', port)    
+        // }
     })
 }
 
 function connectFinder() {
     connectPortfinder.getPort((err, port) => {
-        if (err) {
-            console.error('connect error:', err)
-        } else {
-            console.log('connect port', port)
-        }
+        // if (err) {
+        //     console.error('connect error:', err)
+        // } else {
+        //     console.log('connect port', port)
+        // }
     })
 }
-
-// serverFinter()
-// connectFinder()
 
 
 suite
