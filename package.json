@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/You-From-Mars/portfinder/issues"
   },
-  "homepage": "https://github.com/You-From-Mars/portfinder#readme"
+  "homepage": "https://github.com/You-From-Mars/portfinder#readme",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
 }
